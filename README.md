@@ -2,9 +2,9 @@
 
 This is a relatively straightforward learning project exploring agentic RAG patterns. I built it for educational purposes to understand query decomposition and multi-hop retrieval beyond basic 2023-era RAG.
 
-## What Makes This "Agentic"?
+## "Agentic"
 
-Unlike basic RAG that simply retrieves and generates, this system:
+Unlike basic RAG that simply retrieves and generates, this system does the following that probably count as being so-called agentic in this day and age:
 
 1. Query Decomposition: Complex questions are broken into 2-4 simpler sub-questions
 2. Multi-hop Retrieval: Each sub-question retrieves relevant context independently
@@ -70,7 +70,7 @@ cp .env.example .env
 ### 3. Download Papers and Build Index
 
 ```bash
-# Download 5 papers on for instance, MoE topics
+# Download 10 papers on for instance, MoE topics
 uv run python -c "from src.ingest import download_papers; download_papers('mixture of experts', 10)"
 
 # Chunk papers
