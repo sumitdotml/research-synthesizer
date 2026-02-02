@@ -1,0 +1,18 @@
+[project]
+name = "research-synthesizer"
+version = "0.1.0"
+description = "Agentic RAG system for synthesizing research papers using query decomposition and multi-hop retrieval"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arxiv>=2.4.0",
+    "chromadb>=1.4.1",
+    "ipykernel>=7.1.0",
+    "llama-index>=0.14.13",
+    "llama-index-embeddings-huggingface>=0.6.1",
+    "llama-index-llms-openai-like>=0.6.0",
+    "llama-index-vector-stores-chroma>=0.5.5",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.2.1",
+    "sentence-transformers>=5.2.2",
+]
