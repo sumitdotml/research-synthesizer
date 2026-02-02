@@ -1,0 +1,72 @@
+[
+  {
+    "id": "q1",
+    "question": "What is retrieval augmented generation?",
+    "type": "simple",
+    "expected_topics": ["RAG definition", "retrieval", "generation"],
+    "complexity": "low"
+  },
+  {
+    "id": "q2",
+    "question": "What embedding models are commonly used for RAG systems?",
+    "type": "simple",
+    "expected_topics": ["embeddings", "models", "dense retrieval"],
+    "complexity": "low"
+  },
+  {
+    "id": "q3",
+    "question": "How do retrieval methods in RAG systems work?",
+    "type": "simple",
+    "expected_topics": ["retrieval", "similarity", "vector search"],
+    "complexity": "low"
+  },
+  {
+    "id": "q4",
+    "question": "What are the main challenges in implementing RAG systems?",
+    "type": "analytical",
+    "expected_topics": ["challenges", "limitations", "problems"],
+    "complexity": "medium"
+  },
+  {
+    "id": "q5",
+    "question": "Compare dense retrieval versus sparse retrieval methods for RAG.",
+    "type": "comparison",
+    "expected_topics": ["dense retrieval", "sparse retrieval", "BM25", "embeddings"],
+    "complexity": "medium"
+  },
+  {
+    "id": "q6",
+    "question": "What evaluation metrics are used to assess RAG system performance?",
+    "type": "analytical",
+    "expected_topics": ["evaluation", "metrics", "benchmarks", "quality"],
+    "complexity": "medium"
+  },
+  {
+    "id": "q7",
+    "question": "How do different chunking strategies affect RAG performance?",
+    "type": "analytical",
+    "expected_topics": ["chunking", "segmentation", "document processing"],
+    "complexity": "medium"
+  },
+  {
+    "id": "q8",
+    "question": "What techniques are used to improve retrieval accuracy in RAG systems?",
+    "type": "synthesis",
+    "expected_topics": ["retrieval improvement", "reranking", "query expansion"],
+    "complexity": "high"
+  },
+  {
+    "id": "q9",
+    "question": "How do papers address the problem of hallucination in RAG systems?",
+    "type": "synthesis",
+    "expected_topics": ["hallucination", "factuality", "grounding"],
+    "complexity": "high"
+  },
+  {
+    "id": "q10",
+    "question": "Synthesize the key innovations across the papers for improving RAG systems.",
+    "type": "synthesis",
+    "expected_topics": ["innovations", "improvements", "novel approaches"],
+    "complexity": "high"
+  }
+]
