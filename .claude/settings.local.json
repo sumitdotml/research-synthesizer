@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test:*)",
+      "WebFetch(domain:openrouter.ai)",
+      "Bash(uv:*)",
+      "Bash(source:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" -X POST \"https://openrouter.ai/api/v1/chat/completions\" -H \"Authorization: Bearer $OPENROUTER_API_KEY\" -H \"Content-Type: application/json\" -d '{\"\"model\"\": \"\"moonshotai/kimi-k2.5\"\", \"\"messages\"\": [{\"\"role\"\": \"\"user\"\", \"\"content\"\": \"\"Say OK\"\"}], \"\"max_tokens\"\": 5}')",
+      "WebFetch(domain:github.com)",
+      "Bash(curl:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}
